@@ -2,11 +2,6 @@ import React, { Fragment, useContext, useEffect } from "react";
 import globalContext from "../../context/global/globalContext";
 const Alert = () => {
   const { model } = useContext(globalContext);
-  useEffect(() => {
-    if (model) {
-      console.log(model);
-    }
-  }, [model]);
   return (
     <Fragment>
       {model ? (
