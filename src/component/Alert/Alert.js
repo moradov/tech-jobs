@@ -1,4 +1,4 @@
-import React, { Fragment, useContext, useEffect } from "react";
+import React, { Fragment, useContext } from "react";
 import globalContext from "../../context/global/globalContext";
 const Alert = () => {
   const { model } = useContext(globalContext);
